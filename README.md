@@ -39,5 +39,14 @@ git branch -M main
 git push -u origin main
 ```
 
-## 后续更新
+## 后续更新方法
+
+```powershell
+cd path/to/your/repository           # 切换到你的本地仓库目录
+git add .                            # 添加所有更改过的文件到暂存区
+git status                           # 查看git状态
+git commit -m "Your commit message"  # 提交更改，并附上提交信息
+git push origin main                 # 推送本地的更改到远程的main分支
+```
+
 
